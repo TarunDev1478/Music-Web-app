@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/misicstyle.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <div class="menuside">
+            <h1>Playlist</h1>
+            <div class="playlist">
+                <h4 class="active"><span></span><i class="bi bi-music-note-beamed"></i>Playlist</h4>
+                <h4><span></span>Last Listening</h4>
+                <h4><span></span>Recomended</h4>    
+            </div>
+            <div class="menusong">
+                <li class="songlist">
+                    <span>01</span>
+                    <img src="/static/song1.webp" alt="">
+                    <h5>
+                        On My Way
+                        <div class="subtitle">Alan Walker</div>
+                    </h5>
+                    <i class="bi playlistplay bi-play-circle-fill" id="1"></i>
+                </li>
+                <li class="songlist">
+                    <span>02</span>
+                    <img src="/static/song1.webp" alt="">
+                    <h5>
+                        On My Way
+                        <div class="subtitle">Alan Walker</div>
+                    </h5>
+                    <i class="bi playlistplay bi-play-circle-fill" id="2"></i>
+                </li>
+                <li class="songlist">
+                    <span>03</span>
+                    <img src="/static/song1.webp" alt="">
+                    <h5>
+                        On My Way
+                        <div class="subtitle">Alan Walker</div>
+                    </h5>
+                    <i class="bi playlistplay bi-play-circle-fill" id="3"></i>
+                </li>
+                <li class="songlist">
+                    <span>04</span>
+                    <img src="/static/song1.webp" alt="">
+                    <h5>
+                        On My Way
+                        <div class="subtitle">Alan Walker</div>
+                    </h5>
+                    <i class="bi playlistplay bi-play-circle-fill" id="4"></i>
+                </li>
+                <li class="songlist">
+                    <span>05</span>
+                    <img src="/static/song1.webp" alt="">
+                    <h5>
+                        On My Way
+                        <div class="subtitle">Alan Walker</div>
+                    </h5>
+                    <i class="bi playlistplay bi-play-circle-fill" id="5"></i>
+                </li>
+                <li class="songlist">
+                    <span>06</span>
+                    <img src="/static/song1.webp" alt="">
+                    <h5>
+                        On My Way
+                        <div class="subtitle">Alan Walker</div>
+                    </h5>
+                    <i class="bi playlistplay bi-play-circle-fill" id="6"></i>
+                </li>
+               
+            </div>
+        </div>
+        <div class="songside">
+            <nav>
+                <ul>
+                    <li>Discover<span></span></li>
+                    <li>My Library</li>
+                    <li>Radio</li>
+                </ul>
+                <div class="searchbox">
+                    <div class="search">
+                        <i class="bi bi-search"></i>
+                        <input type="text" id="inputbox" placeholder="Search Music...">
+                    </div>
+                    <div id="search_result">
+                            
+                    </div>
+                </div>
+                <div class="user">
+                    <img src="MUSIFY.png" alt="">
+                </div>
+            </nav>
+            <div class="content">
+                <h1>Alen Walker-Fade</h1>
+                <p>
+                    You are the shadow to my life did you feel us another start you fade<br>away our aim is out of sight wanna see us alive
+                </p>
+                <div class="buttons">
+                    <button>Play</button>
+                    <button>Follow</button>
+                </div>
+            </div>
+            <div class="popular_song">
+                <div class="h4">
+                    <h1>Popular Songs</h1>
+                    <div class="buttons">
+                        <i id="left_scroll" class="bi bi-arrow-left-short"></i>
+                        <i id="Right_scroll" class="bi bi-arrow-right-short"></i>
+                    </div>
+                </div>
+                <div class="pop_song">
+                    <li class="songitem songlist">
+                        <div class="img_play">
+                            <img src="/static/song7.jpg" alt="Alan">
+                            <i class="bi playlistplay bi-play-circle-fill" id="7"></i>
+                        </div>
+                        <h5 >
+                            On My Way<br>
+                            <div class="subtitle">Alan Walker</div>
+                        </h5>
+                    </li>
+                    <li class="songitem songlist">
+                        <div class="img_play">
+                            <img src="/static/song9.jpg" alt="Alan">
+                            <i class="bi playlistplay bi-play-circle-fill" id="8"></i>
+                        </div>
+                        <h5>
+                            On My Way<br>
+                            <div class="subtitle">Alan Walker</div>
+                        </h5>
+                    </li><li class="songitem songlist">
+                        <div class="img_play">
+                            <img src="/static/song9.jpg" alt="Alan">
+                            <i class="bi playlistplay bi-play-circle-fill" id="9"></i>
+                        </div>
+                        <h5>
+                            On My Way<br>
+                            <div class="subtitle">Alan Walker</div>
+                        </h5>
+                    </li><li class="songitem songlist">
+                        <div class="img_play">
+                            <img src="/static/song10.jpg" alt="Alan">
+                            <i class="bi playlistplay bi-play-circle-fill" id="10"></i>
+                        </div>
+                        <h5>
+                            On My Way<br>
+                            <div class="subtitle">Alan Walker</div>
+                        </h5>
+                    </li><li class="songitem songlist">
+                        <div class="img_play">
+                            <img src="/static/song11.jpg" alt="Alan">
+                            <i class="bi playlistplay bi-play-circle-fill" id="11"></i>
+                        </div>
+                        <h5>
+                            On My Way<br>
+                            <div class="subtitle">Alan Walker</div>
+                        </h5>
+                    </li><li class="songitem songlist">
+                        <div class="img_play">
+                            <img src="/static/song12.jpg" alt="Alan">
+                            <i class="bi playlistplay bi-play-circle-fill" id="12"></i>
+                        </div>
+                        <h5>
+                            On My Way<br>
+                            <div class="subtitle">Alan Walker</div>
+                        </h5>
+                    </li><li class="songitem songlist">
+                        <div class="img_play">
+                            <img src="/static/song1.jpg" alt="Alan">
+                            <i class="bi playlistplay bi-play-circle-fill" id="13"></i>
+                        </div>
+                        <h5>
+                            On My Way<br>
+                            <div class="subtitle">Alan Walker</div>
+                        </h5>
+                    </li><li class="songitem songlist">
+                        <div class="img_play">
+                            <img src="/static/song1.jpg" alt="Alan">
+                            <i class="bi playlistplay bi-play-circle-fill" id="14"></i>
+                        </div>
+                        <h5>
+                            On My Way<br>
+                            <div class="subtitle">Alan Walker</div>
+                        </h5>
+                    </li><li class="songitem songlist">
+                        <div class="img_play">
+                            <img src="/static/song1.jpg" alt="Alan">
+                            <i class="bi playlistplay bi-play-circle-fill" id="15"></i>
+                        </div>
+                        <h5>
+                            On My Way<br>
+                            <div class="subtitle">Alan Walker</div>
+                        </h5>
+                    </li><li class="songitem songlist">
+                        <div class="img_play">
+                            <img src="/static/song1.jpg" alt="Alan">
+                            <i class="bi playlistplay bi-play-circle-fill" id="16"></i>
+                        </div>
+                        <h5>
+                            On My Way<br>
+                            <div class="subtitle">Alan Walker</div>
+                        </h5>
+                    </li>
+                </div>
+            <div class="popular_artist">
+                    <div class="h4">
+                        <h1>Popular Artist</h1>
+                        <div class="butn_S">
+                            <i id="left_scrolls" class="bi bi-arrow-left-short"></i>
+                            <i id="right_scrolls" class="bi bi-arrow-right-short"></i>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <li>
+                            <img src="/static/arijit.jpg" alt="arijit" title="arijit singh">
+                        </li>
+                        <li>
+                            <img src="/static/charlie.webp" alt="arijit" title="arijit singh">
+                        </li>
+                        <li>
+                            <img src="/static/papon.webp" alt="arijit" title="arijit singh">
+                        </li>
+                        <li>
+                            <img src="/static/ankit.webp" alt="arijit" title="arijit singh">
+                        </li>
+                        <li>
+                            <img src="/static/shreya.webp" alt="arijit" title="arijit singh">
+                        </li>
+                        <li>
+                            <img src="/static/lata.webp" alt="arijit" title="arijit singh">
+                        </li>
+                        <li>
+                            <img src="/static/udit.webp" alt="arijit" title="arijit singh">
+                        </li>
+                        <li>
+                            <img src="/static/honey.webp" alt="arijit" title="arijit singh">
+                        </li>
+                        <li>
+                            <img src="/static/mika.webp" alt="arijit" title="arijit singh">
+                        </li>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="masterplayer">
+            <div class="wave">
+                <div class="wave1"></div>
+                <div class="wave1"></div>
+                <div class="wave1"></div>
+            </div>
+            <img src="/static/song1.jpg" alt="" id="postmasterplayer">
+            <h5 id="title">
+                On My Way
+                <div class="subtitle">Alan Walker</div>
+            </h5>
+            <div class="icon">
+                <i class="shuffle bi bi-music-note-beamed hii">repeat</i>
+                <i class="bi bi-skip-start-fill" id="back"></i>
+                <i class="bi bi-play-fill" id="masterplayer"></i>
+                <i class="bi bi-skip-end-fill" id="next"></i>
+                <a href="" download id="download"><i class="bi bi-download"></i></a>
+            </div>
+            <span  id="currentStart">0:00</span>
+            <div class="bar">
+                <input type="range" id="seek" min="0" value="0" max="100">
+                <div class="bar2" id="bar2"></div>
+                <div class="dot"></div>
+            </div>
+            <span id="currentEnd">0:00</span>
+            <div class="volume">
+                <i class="bi bi-volume-down-fill" id="vol_ico"></i>
+                <input type="range" id="vol" min="0" value="0" max="100">
+                <div class="volbar"></div>
+                <div class="dot" id="voldot"></div>
+            </div>
+        </div>
+    </header>
+    <script src="app.js"></script>
+</body>
+</html>
+
+
+
+
+
+
+

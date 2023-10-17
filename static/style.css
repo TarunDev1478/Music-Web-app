@@ -1,0 +1,201 @@
+*{
+    padding:0px;
+    margin:0px;
+    font-family: Syne, sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+#navbar{
+    z-index: 1;
+    position: fixed;
+    left: 0;
+    top: 0; 
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+    background-color: white;
+}
+#navbar img{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+#navbar a{
+    list-style: none;
+    text-decoration: none;
+    padding:30px;
+    font-size: 1.35rem;
+    color: black;
+}
+#navbar li{
+    position: absolute;
+    right:150px;
+}
+#logo{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    position: relative;
+    left:150px;
+}
+#intro{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background: url(../concert.jpg)no-repeat center top fixed;
+    background-size: cover ;
+}
+.text{
+    position: absolute;
+    left: 200px;
+    color:white;
+}
+.text h1{
+    font-size: 5rem;
+    font-family: Syne, sans-serif;
+    font-style: normal;
+    font-stretch: normal;
+}
+.text h6{
+    font-size: 1.2rem;
+    padding:20px 0px;
+}
+#btn{
+    background-color: white;
+    font-size: 1.3rem;
+    width: 200px;
+    border:none;
+    height: 40px;
+    border-radius: 22px;
+    color: black;
+}
+#btn:hover{
+    background-color: transparent;
+    color:white;
+    border: 2px solid white;
+    cursor: pointer;
+}
+#social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    top:680px;
+    left:200px;
+}
+#social a i{
+    padding:0px 60px 0px 0px;
+}
+.fa-brands{
+    color:white;
+}
+.fa-brands:hover{
+    color:black;
+}
+#social h1{
+    color: white;
+    font-size: 1.7rem;
+    padding:0px 20px 0px 0px;
+}
+.card{
+    height:270px;
+    width:300px;
+    border-radius: 30px;
+}
+#card1{
+    position: relative;
+    top:180px;
+    left:150px;
+    overflow: hidden;
+}
+#cards img{
+    height:270px;
+    width:300px;
+}
+#card3{
+    position: relative;
+    top:480px;
+    left:-448px;
+    overflow: hidden;
+    margin:0px 0px 20px 0px;
+}
+#card2{
+    position: relative;
+    left:210px;
+    top:336px;
+    overflow: hidden;
+}
+#cards{
+    display:flex;
+    height:100%;
+}
+#about{
+    display: flex;
+    flex-direction: row;
+    height:850px;
+    transition: all;
+}
+#about-text{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    width:600px;
+}
+#about-text h1{
+    padding:40px 0px;
+    font-size: 3.7rem;
+    color:rgb(20, 2, 82);
+}
+#about p{
+    font-size: 1.2rem;
+    color:rgb(20, 2, 82);
+}
+#services{
+    display:flex;
+    height:850px;
+}
+.servcard{
+    height: 620px;
+    width:500px;
+    border-radius: 40px;
+}
+#services-card1{
+    display: flex;
+    position:relative;
+    top:70px;
+    left:150px;
+    overflow: hidden;
+}
+#servtext{
+    display: flex;
+    width: 600px;
+    height:600px;
+    flex-direction: column;
+    position:relative;
+    top:110px;
+}
+#servtext h1{
+    font-size: 3.7rem;
+    color:rgb(20, 2, 82);
+    padding:0px 0px 30px 0px;
+}
+#servtext h2{
+    color:rgb(20, 2, 82);
+    padding:10px 0px 40px 0px;
+}
+#servtext p{
+    display:block;
+    color:rgb(20, 2, 82);
+    border-bottom: 0.1px solid rgb(20, 2, 82);
+    padding:0px 0px 10px 0px;
+}
+#servcard{
+    width:700px;
+}
+#services-card1 img{
+    width:500px;
+}
